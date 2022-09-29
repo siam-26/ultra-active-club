@@ -3,6 +3,7 @@ import './Cards.css';
 
 const Cards = (props) => {
     const { img, name, time } = props.card;
+
     return (
 
         <div className='card'>
@@ -12,7 +13,7 @@ const Cards = (props) => {
                 <p>{time} minutes</p>
             </div>
             <div className='btn-div'>
-                <button className='btn-select'>Select</button>
+                <button onClick={() => props.handler(props.card)} className='btn-select'>Select</button>
             </div>
 
 

@@ -5,7 +5,7 @@ body {
 
 .container-div-main {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 2fr;
     gap: 40px;
 
 }
@@ -31,4 +31,9 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     margin-left: 100px;
+}
+
+.calculations-div {
+    height: 1000px;
+    background-color: white;
 }
