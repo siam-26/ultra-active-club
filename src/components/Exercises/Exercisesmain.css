@@ -1,5 +1,6 @@
 body {
     background-color: rgb(235, 233, 233);
+    margin: 0;
 }
 
 .container-div-main {
@@ -7,6 +8,22 @@ body {
     grid-template-columns: 4fr 1fr;
     gap: 40px;
 
+}
+
+.header {
+    margin-top: 60px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    color: rgb(238, 6, 45);
+}
+
+.header p {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .card-info {
