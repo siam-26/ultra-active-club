@@ -3,35 +3,41 @@
         "id": "1",
         "img": "https://manofmany.com/wp-content/uploads/2020/02/How-to-do-a-proper-pushup.jpg",
         "time": 26,
+        "timer": 10,
         "name": "Push-ups"
     },
     {
         "id": "2",
         "img": "https://hiitacademy.com/wp-content/uploads/2015/02/leg_lifts-1024x459.jpg",
         "time": 32,
+        "timer": 20,
         "name": "Leg-raises"
     },
     {
         "id": "3",
         "img": "https://thumbs.dreamstime.com/b/gym-sportsman-jump…rong-muscular-body-healthy-training-195966909.jpg",
         "time": 32,
+        "timer": 30,
         "name": "Skipping"
     },
     {
         "id": "4",
         "img": "https://blogscdn.thehut.net/app/uploads/sites/478/2016/04/b_-aw9m2vxe.jpg",
+        "timer": 40,
         "time": 25,
         "name": "Hip thrust"
     },
     {
         "id": "5",
         "img": "https://i0.wp.com/mathiasmethod.com/wp-content/uploads/2016/03/dsc_0270.jpg?resize=845%2C693&ssl=1",
+        "timer": 50,
         "time": 30,
         "name": "Rack pull"
     },
     {
         "id": "6",
         "img": "https://simplifaster.com/wp-content/uploads/2017/11/Pressing.jpg",
+        "timer": 60,
         "time": 33,
         "name": "Overhead press"
     }

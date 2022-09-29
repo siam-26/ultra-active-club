@@ -46,7 +46,7 @@ const Exercisesmain = () => {
 
             <div className='calculations-div'>
                 <Calculationside></Calculationside>
-                <Addbreak></Addbreak>
+                <Addbreak cards={cards}></Addbreak>
                 <Exercisedetails exercisedetails={exercisedetails}></Exercisedetails>
             </div>
 
