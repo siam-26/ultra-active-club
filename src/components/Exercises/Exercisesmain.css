@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(235, 233, 233);
+}
+
+.container-div-main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 40px;
+
+}
+
+.card-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-left: 100px;
+}

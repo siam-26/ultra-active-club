@@ -1,38 +1,38 @@
 [
     {
         "id": "1",
-        "picture": "https://images.contentstack.io/v3/assets/blt45c082…s.jpg?format=pjpg&auto=webp&quality=76&width=1232",
+        "img": "https://manofmany.com/wp-content/uploads/2020/02/How-to-do-a-proper-pushup.jpg",
         "Time-required": 26,
-        "name": "Pull-up"
+        "name": "Push-ups"
     },
     {
         "id": "2",
-        "picture": "https://images.squarespace-cdn.com/content/v1/5750…TKVVTI6KTSE12/Pull+Up+%28Male%29.jpg?format=1500w",
-        "age": 32,
-        "name": "Chin-up"
+        "img": "https://hiitacademy.com/wp-content/uploads/2015/02/leg_lifts-1024x459.jpg",
+        "time": 32,
+        "name": "Leg-raises"
     },
     {
         "id": "3",
-        "picture": "https://cdn11.bigcommerce.com/s-fsbpfasp03/images/…aded_images/p7dffxrtcmiy1lflwq5b.jpg?t=1607010063",
-        "age": 32,
-        "name": "Back squat"
+        "img": "https://thumbs.dreamstime.com/b/gym-sportsman-jump…rong-muscular-body-healthy-training-195966909.jpg",
+        "time": 32,
+        "name": "Skipping"
     },
     {
         "id": "4",
-        "picture": "https://barbend.com/wp-content/uploads/2019/10/BarBend-Feature-Image-1200-x-675-70.jpg",
-        "age": 25,
+        "img": "https://blogscdn.thehut.net/app/uploads/sites/478/2016/04/b_-aw9m2vxe.jpg",
+        "time": 25,
         "name": "Hip thrust"
     },
     {
         "id": "5",
-        "picture": "https://i0.wp.com/mathiasmethod.com/wp-content/uploads/2016/03/dsc_0270.jpg?resize=845%2C693&ssl=1",
-        "age": 30,
+        "img": "https://i0.wp.com/mathiasmethod.com/wp-content/uploads/2016/03/dsc_0270.jpg?resize=845%2C693&ssl=1",
+        "time": 30,
         "name": "Rack pull"
     },
     {
         "id": "6",
-        "picture": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/04/30/16513084775352.jpg",
-        "age": 33,
+        "img": "https://simplifaster.com/wp-content/uploads/2017/11/Pressing.jpg",
+        "time": 33,
         "name": "Overhead press"
     }
 ]
