@@ -1,0 +1,14 @@
+.quesans-div {
+    /* background-color: rgb(238, 6, 45); */
+    background-color: rgb(246, 46, 79);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.quesans-div div {
+    padding: 4% 0;
+    margin-left: 5%;
+    width: 80%;
+}

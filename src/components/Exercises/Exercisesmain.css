@@ -63,7 +63,7 @@ body {
 
 /* Tab Responsive */
 
-@media screen and (max-width:991px) {
+@media screen and (min-width:769) and (max-width:991px) {
     .container-div-main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
