@@ -6,10 +6,12 @@ import Calculationside from '../CalculationsSide/Calculationside';
 import Cards from '../Cards/Cards';
 import Exercisedetails from '../Exercisedetails/Exercisedetails';
 import './Exercisesmain.css';
+import ShowBreaks from '../ShowBreaks/ShowBreaks';
 
 const Exercisesmain = () => {
     const [cards, setCards] = useState([]);
     const [exercisedetails, setExercisedetails] = useState([]);
+    const [showBreaks, setShoBreaks] = useState([]);
 
     useEffect(() => {
         fetch('fitness.json')
@@ -20,6 +22,11 @@ const Exercisesmain = () => {
     function btn_handler(card) {
         const newCard = [...exercisedetails, card];
         setExercisedetails(newCard);
+    }
+
+    function showBreaks_btn(btnCard) {
+        const newBtncard = [...showBreaks, btnCard];
+        setShoBreaks(newBtncard);
     }
 
     return (
@@ -50,9 +57,9 @@ const Exercisesmain = () => {
 
             <div className='calculations-div'>
                 <Calculationside></Calculationside>
-                <Addbreak cards={cards}></Addbreak>
+                <Addbreak showBreaks_btn={showBreaks_btn} cards={cards}></Addbreak>
+                <ShowBreaks showBreaks={showBreaks}></ShowBreaks>
                 <Exercisedetails exercisedetails={exercisedetails}></Exercisedetails>
-                {/* <Breaktime></Breaktime> */}
 
             </div>
 
