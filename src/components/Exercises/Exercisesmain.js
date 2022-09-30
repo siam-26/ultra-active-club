@@ -27,6 +27,7 @@ const Exercisesmain = () => {
     function showBreaks_btn(btnCard) {
         const newBtncard = [...showBreaks, btnCard];
         setShoBreaks(newBtncard);
+
     }
 
     return (
@@ -36,7 +37,7 @@ const Exercisesmain = () => {
 
                 <div className='header'>
                     <h1><FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon> FITNESS WORLD-FW</h1>
-                    <p>Select Your Workouts</p>
+                    <p>Select Your Workouts:</p>
                 </div>
 
 

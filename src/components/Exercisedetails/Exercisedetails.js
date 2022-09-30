@@ -23,7 +23,7 @@ const Exercisedetails = (props) => {
 
 
             <div className='btn-activity-div'>
-                <button onClick={notify} className='btn-activity'>Activity Completed</button><ToastContainer />
+                <button onClick={notify} className='btn-activity' style={{ fontWeight: "bold" }}>Activity Completed</button><ToastContainer />
             </div>
 
         </div >

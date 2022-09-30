@@ -8,14 +8,14 @@
     },
     {
         "id": "2",
-        "img": "https://hiitacademy.com/wp-content/uploads/2015/02/leg_lifts-1024x459.jpg",
+        "img": "https://www.podiumrunner.com/wp-content/uploads/2020/08/thumb-1.jpg?width=720",
         "time": 32,
         "timer": 20,
-        "name": "Leg-raises"
+        "name": "Glute Bridge"
     },
     {
         "id": "3",
-        "img": "https://thumbs.dreamstime.com/b/gym-sportsman-jump…rong-muscular-body-healthy-training-195966909.jpg",
+        "img": "https://thumbs.dreamstime.com/b/gym-sportsman-jumping-rope-asian-man-using-sport-equipment-exercise-sexy-guy-strong-muscular-body-healthy-training-195966909.jpg",
         "time": 32,
         "timer": 30,
         "name": "Skipping"
@@ -29,14 +29,14 @@
     },
     {
         "id": "5",
-        "img": "https://i0.wp.com/mathiasmethod.com/wp-content/uploads/2016/03/dsc_0270.jpg?resize=845%2C693&ssl=1",
+        "img": "https://fitness4anybody.com/wp-content/uploads/2021/03/exercise-YHA384L-min-scaled.jpg",
         "timer": 50,
         "time": 30,
         "name": "Rack pull"
     },
     {
         "id": "6",
-        "img": "https://simplifaster.com/wp-content/uploads/2017/11/Pressing.jpg",
+        "img": "https://www.fitnessdayone.com/wp-content/uploads/2021/09/military-press-vs-overhead-press.jpg",
         "timer": 60,
         "time": 33,
         "name": "Overhead press"

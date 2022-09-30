@@ -39,6 +39,14 @@ body {
 
 }
 
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
 /* Mobile Responsive */
 @media screen and (max-width:768px) {
     .container-div-main {

@@ -6,9 +6,9 @@ const ShowBreaks = (props) => {
     let getTimer = 0;
     for (getTimer of showBreaks) {
         getTimer = getTimer.timer;
-
+        localStorage.setItem('Timer', getTimer);
     }
-    localStorage.setItem('Timer', JSON.stringify(getTimer));
+
 
     return (
         <div>

@@ -21,7 +21,7 @@ const Calculationside = () => {
                 </div>
 
                 <div>
-                    <p className='age-25'>25<small className='small'>years</small></p>
+                    <p className='age-25'>26<small className='small'>years</small></p>
                     <p className='my-info-text'>Age</p>
                 </div>
             </div>
@@ -29,5 +29,4 @@ const Calculationside = () => {
         </div>
     );
 };
-
 export default Calculationside;
