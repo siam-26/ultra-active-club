@@ -34,6 +34,46 @@ body {
 }
 
 .calculations-div {
-    height: 1000px;
+    height: 950px;
     background-color: white;
+
+}
+
+/* Mobile Responsive */
+@media screen and (max-width:768px) {
+    .container-div-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0px;
+    }
+
+    .header {
+        margin-left: 13%;
+    }
+
+    .calculations-div {
+        height: 600px;
+    }
+}
+
+/* Tab Responsive */
+
+@media screen and (max-width:991px) {
+    .container-div-main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5%;
+    }
+
+
 }

@@ -8,6 +8,7 @@ import './Exercisesmain.css';
 const Exercisesmain = () => {
     const [cards, setCards] = useState([]);
     const [exercisedetails, setExercisedetails] = useState([]);
+
     useEffect(() => {
         fetch('fitness.json')
             .then(res => res.json())
@@ -18,6 +19,7 @@ const Exercisesmain = () => {
         const newCard = [...exercisedetails, card];
         setExercisedetails(newCard);
     }
+
     return (
         <div className='container-div-main'>
 
@@ -35,7 +37,7 @@ const Exercisesmain = () => {
                         cards.map(card => <Cards
                             key={card.id}
                             card={card}
-                            // cards={cards}
+
                             handler={btn_handler}
                         >
                         </Cards>)
@@ -48,6 +50,8 @@ const Exercisesmain = () => {
                 <Calculationside></Calculationside>
                 <Addbreak cards={cards}></Addbreak>
                 <Exercisedetails exercisedetails={exercisedetails}></Exercisedetails>
+                {/* <Breaktime></Breaktime> */}
+
             </div>
 
         </div>

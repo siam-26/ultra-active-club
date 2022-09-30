@@ -9,7 +9,7 @@ const Exercisedetails = (props) => {
     }
     return (
         <div className='exercise-details-container-div'>
-            <h3>Exercise Details</h3>
+
 
             <div className='exercise-details-div'>
                 <h4 style={{ display: "inline" }}>Exercise Time:</h4><span style={{ marginLeft: "35px" }}>{time} mins</span>
@@ -18,6 +18,7 @@ const Exercisedetails = (props) => {
             <div className='btn-activity-div'>
                 <button className='btn-activity'>Activity Completed</button>
             </div>
+
         </div >
     );
 };
