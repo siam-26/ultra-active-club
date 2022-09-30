@@ -1,5 +1,7 @@
 import React from 'react';
 import './Exercisedetails.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Exercisedetails = (props) => {
     const { exercisedetails } = props;
@@ -7,6 +9,10 @@ const Exercisedetails = (props) => {
     for (const detail of exercisedetails) {
         time = time + detail.time;
     }
+
+    //Toast
+    const notify = () => toast("Hey! Congratulations!!!");
+
     return (
         <div className='exercise-details-container-div'>
 
@@ -15,8 +21,9 @@ const Exercisedetails = (props) => {
                 <h4 style={{ display: "inline" }}>Exercise Time:</h4><span style={{ marginLeft: "35px" }}>{time} mins</span>
             </div>
 
+
             <div className='btn-activity-div'>
-                <button className='btn-activity'>Activity Completed</button>
+                <button onClick={notify} className='btn-activity'>Activity Completed</button><ToastContainer />
             </div>
 
         </div >
