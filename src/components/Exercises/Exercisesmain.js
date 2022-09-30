@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react';
 import Addbreak from '../Break/Addbreak';
 import Calculationside from '../CalculationsSide/Calculationside';
@@ -26,7 +28,7 @@ const Exercisesmain = () => {
             <div className='card-part-div'>
 
                 <div className='header'>
-                    <h1>FITNESS WORLD-FW</h1>
+                    <h1><FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon> FITNESS WORLD-FW</h1>
                     <p>Select Your Workouts</p>
                 </div>
 
