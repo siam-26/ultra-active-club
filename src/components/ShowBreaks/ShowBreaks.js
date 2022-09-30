@@ -9,6 +9,13 @@ const ShowBreaks = (props) => {
         localStorage.setItem('Timer', getTimer);
     }
 
+    const getItemFromStorage = localStorage.getItem('Timer');
+    if (getItemFromStorage) {
+        getTimer = getItemFromStorage;
+    } else {
+        getTimer = 0;
+    }
+
 
     return (
         <div>
